@@ -1,0 +1,52 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Prevent macOS files outside project from being included
+/Library/
+Library/
+
+# Brave/Chrome-style cache folders
+**/GrShaderCache/
+**/Cache/
+**/IndexedDB/
+**/Service Worker/
+**/WebStorage/
+**/Sessions/
+**/GPUCache/
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
